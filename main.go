@@ -37,6 +37,7 @@ func main() {
 
 	var buf []byte
 	if err := chromedp.Run(ctx,
+		chromedp.EmulateViewport(1920, 1080),
 		chromedp.Navigate(*url),
 		chromedp.FullScreenshot(&buf, 100),
 	); err != nil {
