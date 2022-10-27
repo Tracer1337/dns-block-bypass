@@ -6,8 +6,12 @@ This project lets you capture a screenshot of any website, even when it's dns-bl
 
 1. [Register a free account at Browserless](https://cloud.browserless.io/account)
 2. Grab the API Key shown on the account page
-3. Clone the Repo and run `go install` ([Go](https://go.dev/) is required for this step)
-4. Run `dns-block-bypass -token=YOUR_TOKEN_HERE -url=URL_HERE`
+3. Download the binary for your OS from the [Releases Page](https://github.com/Tracer1337/dns-block-bypass/releases) 
+4. Run the binary with the following parameters: `-token=YOUR_TOKEN_HERE -url=URL_HERE`
+
+### Compiling
+
+Clone the Repo and run `go install` ([Go](https://go.dev/) is required for this step)
 
 ### Usage
 
